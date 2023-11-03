@@ -1,0 +1,213 @@
+{"contenido":[
+    {
+        "tag": "Bienvenida",
+        "patrones": ["Hola","Ola","Quiero hacer el test","Hola Chatbot","Buenas"],
+        "respuestas": [
+            "Hola, ¿estás listo para comenzar el test?",
+            "Bienvenido al test, ¿deseas iniciar?",
+            "Buenas, ¿estás preparado para comenzar el test?",
+            "Para empezar, simplemente responde 'Comencemos'."
+          ]
+        },
+        {
+        "tag": "ConfirmacionTest",
+        "patrones": ["empecemos con el test, preguntame", "cual es la primera pregunta","dime","preguntame","incia con las preguntas","ok","esta bien",
+        "inicia con el test","comencemos","empecemos","dime la pregunta"],
+        "respuestas": ["La primera pregunta es: ¿Te gustan los números? ","Primera pregunta: ¿Te gustan los animales? ",
+        "Empecemos con ¿Te interesa saber cómo funcionan aparatos que usas a diario como el celular, la televisión o la computadora?","La primera pregunta es: ¿Te gustan leer libros? ",
+            "Para empezar dime, ¿Tienes un gusto en particular?","Entre el arte, las letras o los numeros, ¿Con que campo te sientes mas comodo?","¿Que area academica te gusta mas?"]
+        },
+        {
+        "tag": "Primera Pregunta",
+        "patrones": ["Me gustan los animales","No me  gustan los animales", "Me considero bueno con los números", "No se me dan bien las matematicas", 
+        "Nunca he pensado como funcionan las cosas", "Muy a menudo me pregunto sobre el funcionamiento de las máquinas","me gusta los numeros","me gusta las letras","me gusta el arte","me gusta dibujar","No tengo un gusto en particular"],
+        "respuestas": ["La siguiente pregunta es: ¿Que carreras tienes consideradas a estudiar? ","¿Te animarias a estudiar alguna ingeneria?","Confirmame ¿Prefieres mas los numeros o las letras? ","Si te gustan las letras, ¿Tambien te gusta hablar en publico o expresar lo que dice?",
+        "Siguiente pregunta  ¿Te gusta el arte?", "¿Dirias que tienes mas interes por el arte que los numeros?","¿Te ves diseñando logos unicos y creativos?" ]
+        },
+        {
+        "tag": "Segunda Pregunta",
+        "patrones": ["No tengo interes en los numeros","no me gustan las matematicas","me gustan las matematicas","me gustan los numeros","si me animaria a estudiar una ing", 
+        "No me gustan las computadoras","me gustan las computadoras","me gusta la tecnologia", "Me encantan las computadoras", "No soy bueno enseñando","si me gustan las letras","me gusta leer" ,"Se me da bien enseñar"
+            ,"me interesa enseñar","si me veo haciendo logos o diseños","me gustaria vivir del arte","soy muy expresivo y creativo","si tengo mas interes por el arte"],
+        "respuestas": ["¿Eres paciente cuando tienes que explicar algo a otra personas?","Continuemos con ¿Que tan bueno eres en con las formulas matematicas?",
+                        "¿Te gusta buscar soluciones?","¿Te interesa el como funciona el software de las computadoras?","Continuemos con  ¿Eres más de letras o números?","¿Defenderias a alguien aun si sabes que esta mal?"
+                        ,"¿Te gusta escuchar?","¿Encuentras algun interes en algo en especifico?","¿Si quitaras tus dudas de por medio, que cosas te interesa?"]
+        },
+        {
+        "tag": "Tercera Pregunta",
+        "patrones": ["No tengo interés en los números", "No me gustan las matemáticas", "Me gustan las matemáticas", "Me gustan los números", "Sí me animaría a estudiar una ingeniería", "No me gustan las computadoras", 
+        "Me gustan las computadoras", "Me gusta la tecnología", "Me encantan las computadoras", "No soy bueno enseñando", "Sí me gustan las letras", "Me gusta leer", "Se me da bien enseñar", "Me interesa enseñar", 
+        "Sí me veo haciendo logos o diseños", "Me gustaría vivir del arte", "Soy muy expresivo y creativo", "Sí tengo más interés por el arte"],
+        "respuestas": [
+            "Si tuvieras que describir en unas palabras tu carrera deseada, ¿cuáles serían?",
+            "En pocas palabras, ¿cómo describirías la carrera de tus sueños?",
+            "Imagina que debes resumir tu carrera ideal en unas pocas palabras, ¿cómo lo harías?",
+            "Si tu futuro profesional se pudiera resumir en breves términos, ¿qué dirías?",
+            "¿Puedes resumir tu carrera deseada en solo unas pocas palabras?",
+            "¿Cuál sería la descripción concisa de la carrera que te gustaría seguir?",
+            "Si tuvieses que definir tu futura profesión en unas pocas palabras, ¿qué dirías?",
+            "Imagina que debes resumir tu carrera ideal en una breve frase, ¿cuál sería?",
+            "¿Qué palabras usarías para describir la carrera de tus sueños de manera breve?",
+            "En términos simples, ¿cómo describirías tu carrera deseada?"
+          ]
+        },
+
+
+        {
+            "tag": "medicina",
+            "patrones": ["Ciencia", "Biologia", "Quimica", "salud", "sanarse", "enfermedad", "medicina natural", "medicamentos"],
+            "respuestas": ["Podrías considerar la carrera en Medicina."]
+        },
+        {
+            "tag": "nutricion",
+            "patrones": ["nutricional", "comida chatarra", "Comer saludable", "alimentacion", "alimentos transgénicos", "Dietética"],
+            "respuestas": ["Podrías considerar la carrera en Nutrición."]
+        },
+        {
+            "tag": "psicologia",
+            "patrones": ["Saber escuchar", "conocer y tratar", "ayudar y servir", "mente abierta", "analizas y reflexionas", "aprender y conocer", "resolver problemas"],
+            "respuestas": ["Podrías considerar la carrera en Psicologia."]
+        },
+        {
+            "tag": "enfermeria",
+            "patrones": ["medicina", "anatomía", "biología", "mejorar su salud", "recuperarse de lesiones", "recuperarse de enfermedades", "medicación"],
+            "respuestas": ["Podrías considerar la carrera en Enfermeria."]
+        },
+        {
+            "tag": "estomatologia",
+            "patrones": ["bucales", "salud oral", "salud bucal", "dientes", "dental", "odontología", "higiene bucal"],
+            "respuestas": ["Podrías considerar la carrera en Estomatologia."]
+        },
+        {
+            "tag": "tecnologia_medica",
+            "patrones": ["biológico", "bioquímico", "biofísico", "hemograma", "microscopios", "laboratorios", "rayos x", "radiografía", "resonancia"],
+            "respuestas": ["Podrías considerar la carrera en Tecnologia Medica."]
+        },
+
+        {
+            "tag": "administracion",
+            "patrones": ["empresa", "realidad economica", "numeros y letras", "liderazgo", "capacidad analitical", "evaluar propuestas", "comunicacion", "responsabilidad"],
+            "respuestas": ["Podrías considerar la carrera en Administracion."]
+        },
+        {
+            "tag": "turismo_hoteleria",
+            "patrones": ["viajar", "planes viaje", "turismo", "hoteles", "actividades", "nuevas ciudades", "nuevas culturas", "motivacion"],
+            "respuestas": ["Podrías considerar la carrera en Administracion en Turismo y Hoteleria."]
+        },
+        {
+            "tag": "contabilidad",
+            "patrones": ["numeros", "calculos", "resolver problemas", "dinero", "ingresos", "egresos", "pagos", "planillas", "financiero", "estadistica", "matematicas", "economia"],
+            "respuestas": ["Podrías considerar la carrera en Contabilidad."]
+        },
+        {
+            "tag": "administracion_marketing",
+            "patrones": ["marketing", "publicidad", "relaciones publicas", "comunicacion audiovisual", "estrategias", "bienes y servicios", "consumidores", "rentabilidad", "producto"],
+            "respuestas": ["Podrías considerar la carrera en Administracion y Marketing."]
+        },
+        {
+            "tag": "negocios_internacionales",
+            "patrones": ["consultoria", "negocios", "vision estrategica", "empresas", "clientes", "mercados internacionales", "importacion", "exportacion"],
+            "respuestas": ["Podrías considerar la carrera en Administracion y Negocios Internacionales."]
+        },
+        {
+            "tag": "economia",
+            "patrones": ["economia", "produccion", "distribucion", "bienes", "servicios", "negocio", "habitos consumo", "inversion"],
+            "respuestas": ["Podrías considerar la carrera en Economia."]
+        },
+        {
+            "tag": "gestion_publica",
+            "patrones": ["gestion", "gobierno", "entidades privadas", "politica", "enfoque economico", "gubernamentales", "estado", "administracion publica"],
+            "respuestas": ["Podrías considerar la carrera en Gestion Publica."]
+        },
+
+        {
+            "tag": "diseño_grafico",
+            "patrones": ["diseño", "imagenes", "elementos visuales", "creativo", "comunicacion visual", "herramientas graficas", "herramientas diseño"],
+            "respuestas": ["Podrías considerar la carrera en Diseño Grafico Empresarial."]
+        },
+        {
+            "tag": "ciencias_deporte",
+            "patrones": ["psicología deporte", "anatomía", "fisiología", "biomecánica", "deporte sociedad", "rehabilitación", "rendimiento", "Salud ocupacional"],
+            "respuestas": ["Podrías considerar la carrera en Ciencias del Deporte."]
+        },
+        {
+            "tag": "ciencias_comunicacion",
+            "patrones": ["comunicacion", "literatura", "periodismo", "mercadotecnia", "cinematografia", "produccion audiovisual", "radio", "redaccion"],
+            "respuestas": ["Podrías considerar la carrera en Ciencias de la Comunicacion."]
+        },
+        {
+            "tag": "educacion_primaria",
+            "patrones": ["enseñar niños", "paciente", "empatico", "creativo", "ingenioso", "inclinacion letras", "comunicativo", "carismatico", "mediador"],
+            "respuestas": ["Podrías considerar la carrera en Educacion Primaria."]
+        },
+        {
+            "tag": "educacion_inicial",
+            "patrones": ["niños", "responsabilidad", "atencion", "paciencia", "vocacion", "tolerancia", "comunicacion", "capacidad social"],
+            "respuestas": ["Podrías considerar la carrera en Educacion Inicial."]
+        },
+        {
+            "tag": "derecho",
+            "patrones": ["analizar", "discutir problemas", "debatir", "comunicaion", "orden", "justicia", "organizado", "negociacion"],
+            "respuestas": ["Podrías considerar la carrera en Derecho."]
+        },
+        {
+            "tag": "traduccion_interpretacion",
+            "patrones": ["traductor", "interprete", "capacidades interpersonales", "comunicación asertiva", "linguistico", "culturas"],
+            "respuestas": ["Podrías considerar la carrera en Traduccion e Interpretacion."]
+        },
+
+        {
+            "tag": "sistemas",
+            "patrones": ["tecnologia", "logica", "calculo", "investigacion cientifica", "investigacion tecnologica", "hardware", "software", "computacional", "programacion"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria de Sistemas."]
+        },
+        {
+            "tag": "civil",
+            "patrones": ["estructuras", "edificios", "carreteras", "puentes", "comunidad", "seguridad", "construccion", "mantenimiento"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria Civil."]
+        },
+        {
+            "tag": "industrial",
+            "patrones": ["empresarial", "direccion empresarial", "diseñar", "herramientas", "hidrodinámica", "productividad empresarial", "mecanica", "termodinamica"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria Industrial."]
+        },
+        {
+            "tag": "minas",
+            "patrones": ["supervision", "medio ambiente", "mineria", "petrologia", "mineralogia", "minerales", "recursos naturales", "explotacion geominera"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria de Minas."]
+        },
+        {
+            "tag": "mecanica_electrica",
+            "patrones": ["electricidad", "mecanica", "diseño", "fabricacion", "electrodomesticos", "automotriz", "metalmecánica", "maquinas"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria Mecanica Electrica."]
+        },
+        {
+            "tag": "empresarial",
+            "patrones": ["transformación digital", "tecnología", "innovador", "analítico", "liderazfo", "emprendimiento", "negocios digitales", "retos empresariales"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria Empresarial."]
+        },
+        {
+            "tag": "arquitectura",
+            "patrones": ["dibujo", "creatividad", "vision", "disciplina", "tecnica", "calidad", "comunidad", "medio ambiente"],
+            "respuestas": ["Podrías considerar la carrera en Arquitectura."]
+        },
+        {
+            "tag": "ambiental",
+            "patrones": ["innovador", "entorno ambiental", "pensamiento critico", "reflexivo", "recursos renovables", "problemas climaticos", "investigador ambiental", "naturaleza"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria Ambiental."]
+        },
+        {
+            "tag": "ciencia_datos",
+            "patrones": ["innovador", "informatica", "datos", "inteligencia artificial", "aprendisaje automatico", "robots", "big data", "tecnologia", "programacion"],
+            "respuestas": ["Podrías considerar la carrera en Ingenieria en Ciencia de Datos."]
+        },
+        {
+            "tag": "ciberseguridad",
+            "patrones": ["seguridad", "informatica", "desarrollo", "imlementacion", "soluciones", "software", "redes", "servidores", "amenazas ciberneticas"],
+            "respuestas": ["Podrías considerar la carrera en Ciberseguridad."]
+        }
+    ]
+
+
+
+}
